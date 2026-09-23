@@ -8,7 +8,7 @@ This is a WEIDU mod thus currently is compatible with other mods.
 
 	2 - Run WeiDU and install.
 
-High Level Ability Revision
+**High Level Ability Revision**
 
 - DEATHBLOW - The Deathblow ability allows the warrior to blow through the defenses of many opponents. All successful melee attacks within the next round force the opponent to Save vs. Death or die. Deathblow may not be used in conjunction with Haste effects.
 
