@@ -1,0 +1,9 @@
+@3 = ~Deathblow~
+@4 = ~Deathblow
+The Deathblow ability allows the warrior to blow through the defenses of many opponents. All successful melee attacks within the next round force the opponent to Save vs. Death or die. Deathblow may not be used in conjunction with Haste effects.~
+
+@5 = ~Greater Deathblow~
+@6 = ~Greater Deathblow
+The Greater Deathblow ability allows the warrior to vanquish many foes with a single blow. All successful melee attacks within the next round force the opponent to Save vs. Death at -4 or die. Greater Deathblow may not be used in conjunction with Haste effects.
+
+Requires: Deathblow~

@@ -1,0 +1,43 @@
+BACKUP ~High Level Abilities/Backup~
+AUTHOR ~Greener~
+VERSION ~1.0~
+
+LANGUAGE 
+ ~English~ 
+ ~English~ 
+ ~High Level Abilities/Language/English/game.tra~
+ ~High Level Abilities/Language/English/weidu.tra~
+
+BEGIN @1
+REQUIRE_PREDICATE GAME_IS ~bg2ee~ @2
+ACTION_IF FILE_EXISTS_IN_GAME ~enginest.2da~ BEGIN
+
+COPY ~High Level Abilities/Effects/SPCL902.EFF~ ~override~
+COPY ~High Level Abilities/Spells/SPCL902.SPL~ ~override~
+  SAY NAME1 @3
+  SAY UNIDENTIFIED_DESC @4
+
+COPY ~High Level Abilities/Effects/SPCL903.EFF~ ~override~
+COPY ~High Level Abilities/Spells/SPCL903.SPL~ ~override~
+  SAY NAME1 @5
+  SAY UNIDENTIFIED_DESC @6
+
+COPY_EXISTING ~LUFI0.2DA~ ~override~ // Fighter
+  SET_2DA_ENTRY  4 6 9 ~1 ~
+
+COPY_EXISTING ~LUFI4.2DA~ ~override~ // Dwarven Defender
+  SET_2DA_ENTRY  4 6 9 ~1 ~
+
+COPY_EXISTING ~LUMO0.2DA~ ~override~ // Monk
+  SET_2DA_ENTRY  4 6 9 ~1 ~
+
+COPY_EXISTING ~LUPA0.2DA~ ~override~ // Paladin
+  SET_2DA_ENTRY  4 6 9 ~1 ~
+
+COPY_EXISTING ~LUPA4.2DA~ ~override~ // Blackguard
+  SET_2DA_ENTRY  4 6 9 ~1 ~
+
+COPY_EXISTING ~LURA0.2DA~ ~override~ // Ranger
+  SET_2DA_ENTRY  4 6 9 ~1 ~
+END
+	
